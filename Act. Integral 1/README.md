@@ -8,3 +8,10 @@ de un rango. El proyecto maneja el algoritmo de ordenamiento Merge porque es el 
 para lectura como para escritura.
 
 El programa incluye comentarios sobre el funcionamiento del mismo en cada etapa importante.
+
+**Funciones del usuario y casos de prueba**
+Todos las entradas del usuario tienen que ser números enteros, de lo contrario el programa entra en un bucle infinito y el usuario deberá reiniciarlo.
+
+**Búsqueda por rangos de ID's**
+Se recomienda que el usuario introduzca un rango de enteros que se encuentre dentro del rango base de 9000-18000. De lo contrario se generará un documento
+en blanco.
