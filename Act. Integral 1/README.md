@@ -9,6 +9,10 @@ en el mejor de los casos (a diferencia de Merge, que maneja una complejidad nlog
 archivos .txt, tanto para lectura como para escritura.
 
 El programa incluye comentarios sobre el funcionamiento del mismo en cada etapa importante.
+**Archivos necesarios:**
+main.cpp
+sorts.h
+datos.txt
 
 **Funciones del usuario y casos de prueba**
 
