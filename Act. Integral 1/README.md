@@ -18,7 +18,7 @@ sorts.h
 
 datos.txt
 
-Se incluye un archivo de texto con los datos ordenados como referencia para identificar cada ID con sus respectivos atributos de manera ordenada.
+*Se incluye un archivo de texto con los datos ordenados como referencia para identificar cada ID con sus respectivos atributos de manera ordenada.
 
 **Funciones del usuario y casos de prueba**
 
