@@ -29,6 +29,7 @@ std::vector<T> Sorts<T>::ordenaBurbuja(std::vector<T>& source1, std::vector <T>&
 	for (int i = v.size() - 1; i > 0; i--) {
 		for (int j = 0; j < i; j++) {
 			if (v[j] > v[j + 1]) {
+				//Se hace un swap para el vector de referencia(v) y un swap para el vector que se va a regresar(v2).
 				swap(v, j, j + 1);
 				swap(v2, j, j + 1);
 			}
