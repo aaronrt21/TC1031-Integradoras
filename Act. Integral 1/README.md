@@ -24,7 +24,11 @@ datos.txt
 
 Todos las entradas del usuario tienen que ser números enteros, de lo contrario el programa entra en un bucle infinito y el usuario deberá reiniciarlo.
 
-**Búsqueda por rangos de ID's**
+**Búsqueda por ID's**
+
+Si existe un ID repetido, el programa regresará el primero de la lista.
+
+**Búsqueda por ID's por rango**
 
 Para que la función de búsqueda por rangos de ID's funcione de manera esperada, se recomienda al usuario introducir el límite más pequeño primero y el más
 grande después. De lo contrario regresará una búsqueda vacía.
