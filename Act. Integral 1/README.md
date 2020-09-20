@@ -14,6 +14,8 @@ main.cpp
 sorts.h
 datos.txt
 
+Se incluye un archivo de texto con los datos ordenados como referencia para identificar cada ID con sus respectivos atributos de manera ordenada.
+
 **Funciones del usuario y casos de prueba**
 
 Todos las entradas del usuario tienen que ser números enteros, de lo contrario el programa entra en un bucle infinito y el usuario deberá reiniciarlo.
