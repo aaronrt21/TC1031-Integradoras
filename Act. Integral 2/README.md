@@ -29,26 +29,90 @@ datos.txt
 
 **Casos de prueba**
 Es importante que el usuario sólo introduzca números enteros. De lo contrario, el programa entrará en un bucle infinito y el usuario deberá reiniciarlo manualmente.
+Para la búsqueda de ID's por rango, el usuario debe introducir el límite inferior del rango que desea buscar antes que el superior. De lo contrario no se generará
+ningún resultado aunque los ID's sí existan en el archivo "datos.txt".
 
 **Primer caso: ordenamiento de la lista por ID.**
+
 Inputs: 1 1
+
 Output: Archivo "ordenamiento_id.txt"
 
+
 **Segundo caso: ordenamiento de la lista por Edad.**
+
 Inputs: 1 2
+
 Output: Archivo "ordenamiento_edad.txt"
 
+
 **Tercer caso: ordenamiento de la lista por Horas.**
+
 Inputs: 1 3
+
 Output: Archivo "ordenamiento_horas.txt"
 
+
 **Cuarto caso: ordenamiento de la lista por logros.**
+
 Inputs: 1 4
+
 Output: Archivo "ordenamiento_logros.txt"
 
-**Quinto caso: búsqueda de perfil por ID específico (ID sí existe).**
+
+**Quinto caso: búsqueda de perfil por ID específico (ID existente).**
+
 Inputs: 2 1 12789
+
 Output:
-Resultado:
+
+"Resultado:
+
 ID | Edad | Horas jugadas | Logros Desbloqueados
-0. 12789 | 31 | 23 | 17
+
+0. 12789 | 31 | 23 | 17"
+
+**Sexto caso: búsqueda de perfil por ID específico (ID no existente)**
+
+Inputs: 2 1 12788
+
+Output:
+
+"El ID buscado no existe."
+
+
+**Séptimo caso: búsqueda de perfiles por rango de ID (ID's válidos, input3 > input4)**
+
+Inputs: 2 2 14000 18000
+
+Output:
+
+"Resultado:
+
+ID | Edad | Horas jugadas | Logros Desbloqueados
+
+0. 14532 | 69 | 1 | 12
+
+1. 16458 | 18 | 334 | 11
+
+2. 17845 | 64 | 4 | 17"
+
+**Octavo caso: búsqueda de perfiles por rango de ID (ID's válidos, input3 < input4)**
+
+Inputs 2 2 18000 14000
+
+Output:
+
+"Resultado:
+
+ID | Edad | Horas jugadas | Logros Desbloqueados"
+
+**Noveno caso: búsqueda de perfiles por rango de ID(ID's no válidos, sin importar el orden)**
+
+Inputs: 2 2 10 50 || 2 2 50 10
+
+Output:
+
+"Resultado:
+
+ID | Edad | Horas jugadas | Logros Desbloqueados"
