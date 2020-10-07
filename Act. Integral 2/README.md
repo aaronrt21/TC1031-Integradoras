@@ -3,12 +3,16 @@
 **Aarón Gonzalo Ramírez Tafolla - A01351621**
 
 **Fecha de entrega: 08/10/2020**
+
 Proyecto para la Unidad Formativa TC1031. El programa recibe un archivo con los registros de varios jugadores y los guarda en listas doblemente anidadas. 
 Cada jugador tiene registrado un ID, su edad, las horas jugadas y la cantidad de logros desbloqueados. El usuario puede decidir si quiere organizar alguno de los
 registros mencionados anteriormente o realizar una búsqueda por ID específico o recibir todos los ID's existentes dentro de un rango. El proyecto utiliza el arlgoritmo
 de ordenamiento por burbuja porque, aunque Merge es más eficiente con valores aleatorios, Burbuja maneja una complejidad lineal (o(n)) en el mejor de los casos
 (a diferencia de Merge, que maneja una complejidad nlog(n)). Además, facilita la manipulación de los vectores auxiliares con la función swap. El proyecto también
 manipula archivos .txt, tanto para lectura como para escritura.
+
+La complejidad del programa general nunca pasa de O(n). Los condicionales if y los ciclos while tienen complejidad constante, pues se rigen por valores establecidos
+por el usuario. El programa se vuelve O(n) en el peor de los casos cuando se realiza el ordenamiento de alguna lista.
 
 El programa incluye comentarios sobre el funcionamiento del mismo en cada etapa importante.
 
@@ -25,6 +29,7 @@ exception.h
 datos.txt
 
 *La autoría del documento exception.h es del profesor Pedro Óscar Pérez Murrieta
+
 **Se incluye un archivo de texto con los datos ordenados como referencia para identificar cada ID con sus respectivos atributos de manera ordenada (DatosOrd.txt).
 
 **Casos de prueba**
