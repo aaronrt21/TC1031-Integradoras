@@ -32,6 +32,9 @@ Es importante que el usuario sólo introduzca números enteros. De lo contrario,
 Para la búsqueda de ID's por rango, el usuario debe introducir el límite inferior del rango que desea buscar antes que el superior. De lo contrario no se generará
 ningún resultado aunque los ID's sí existan en el archivo "datos.txt".
 
+Si el usuario mete un valor enter que se encuentra fuera del rango especificado en las impresiones de los menús ("[1/2]" y "[1/2/3/4]") el programa le pedirá que
+introduzca un valor nuevamente, pues el que introdujo no es válido.
+
 **Primer caso: ordenamiento de la lista por ID.**
 
 Inputs: 1 1
