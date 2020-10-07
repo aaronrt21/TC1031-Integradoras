@@ -339,6 +339,7 @@ int main() {
 			sorts.ordenaBurbuja(orig_ids, ids);
 			sorts.ordenaBurbuja(orig_ids, edades);
 			sorts.ordenaBurbuja(orig_ids, horas);
+			sorts.ordenaBurbuja(orig_ids, logros);
 			while(option2 < 1 || option2 > 2){
 				//Menú para que el usuario escoja qué tipo de búsqueda desea realizar.
 				cout << "\nBusqueda por ID: \n1. Busqueda de ID especifico\n2. Busqueda de ID dentro de un rango\n\nRespuesta [1/2]: ";
@@ -351,8 +352,8 @@ int main() {
 					
 					int i_result = sorts.busqBinaria(ids, valor1);
 					if (i_result > -1){
-						cout << "\n\nResultado:\nID | Edad | Horas jugadas \n";
-						cout << cont << ". " << ids[i_result] << " | " << edades[i_result] << " | " << horas[i_result] << "\n";
+						cout << "\n\nResultado:\nID | Edad | Horas jugadas | Logros Desbloqueados\n";
+						cout << cont << ". " << ids[i_result] << " | " << edades[i_result] << " | " << horas[i_result] << logros[i_result] << "\n";
 						cont++;
 					}
 					else {
@@ -368,10 +369,10 @@ int main() {
 					cin >> valor2;
 					
 					//Verificar que el id entre en el rango solicitado por el usuario.
-					cout << "\n\nResultado:\nID | Edad | Horas jugadas \n";
+					cout << "\n\nResultado:\nID | Edad | Horas jugadas | Logros Desbloqueados\n";
 					for (i = 0; i < ids.size(); i++){
 							if ((ids[i] >= valor1) && (ids[i] <=valor2)){
-								cout << cont << ". " << ids[i] << " | " << edades[i] << " | " << horas[i] << "\n";
+								cout << cont << ". " << ids[i] << " | " << edades[i] << " | " << horas[i] << " | " << logros[i] << "\n";
 								cont++;
 							}
 						}
