@@ -121,7 +121,7 @@ int main() {
 	
 	while (option1 < 1 || option1 > 3){
 		cout << "\n\nBienvenido.\nSeleccione lo que quiere hacer:\n";
-		cout << "1. Ordenar la lista de ID's\n2. Buscar un ID\n3. Ejecutar casos de prueba\nRespuesta [1/2]: ";
+		cout << "1. Ordenar la lista de ID's\n2. Buscar un ID\n3. Ejecutar casos de prueba\nRespuesta [1/2/3]: ";
 		cin >> option1;
 		
 		///Ordenar la lista de ID's//////////
