@@ -35,7 +35,7 @@ ids.txt
 
 *La autoría del documento exception.h es del profesor Pedro Óscar Pérez Murrieta
 
-**Se incluye un archivo de texto con los datos ordenados como referencia para identificar cada ID con sus respectivos atributos de manera ordenada (ids_ans.txt).
+**Se incluye un archivo de texto con los datos ordenados como referencia para identificar cada ID de manera ordenada (ids_ans.txt).
 
 **Casos de prueba**
 
