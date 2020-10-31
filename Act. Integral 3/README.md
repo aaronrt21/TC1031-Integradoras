@@ -38,7 +38,8 @@ ids.txt
 **Se incluye un archivo de texto con los datos ordenados como referencia para identificar cada ID con sus respectivos atributos de manera ordenada (ids_ans.txt).
 
 **Casos de prueba**
-El usuario puede ejecutar y visualizar cada caso de prueba dentro de la aplicación si introduce un '3' en el primer input.
+
+El usuario puede ejecutar y visualizar cada caso de prueba dentro de la aplicación si corre el programa 'main.cpp' e introduce un '3' en el primer input.
 
 Es importante que el usuario sólo introduzca números enteros. De lo contrario, el programa entrará en un bucle infinito y el usuario deberá reiniciarlo manualmente.
 Para la búsqueda de ID's por rango, el usuario debe introducir el límite inferior del rango que desea buscar antes que el superior. De lo contrario no se generará
