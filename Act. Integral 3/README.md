@@ -14,7 +14,7 @@ El programa incluye comentarios sobre el funcionamiento del mismo en cada etapa 
 
 **Análisis de complejidad**
 
-La complejidad general de main.cpp es cuadrática. Aunque los condicionales if y ciclos while tienen complejidad constante (pues se rigen por valores establecidos
+La complejidad general de 'main.cpp' es cuadrática. Aunque los condicionales if y ciclos while tienen complejidad constante (pues se rigen por valores de selección establecidos
 por el usuario), el ordenamiento de los ID's hace que la complejidad general del progama sea O(n^2).
 
 El programa 'sorts.h' tiene complejidad O(n^2) debido al manejo de los índices en el algoritmo de ordenamiento Burbuja.
