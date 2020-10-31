@@ -10,10 +10,16 @@ El usuario puede decidir si quiere organizar el registro, realizar una búsqueda
 de un rango. Se utiliza el algoritmo Burbuja porque facilita la manipulación de los vectores con la función swap. El proyecto también manipula
 archivos .txt, tanto para lectura como para escritura. El programa incluye una opción para que el usuario ejecute los casos de prueba.
 
-La complejidad general del programa es de lineal. Aunque los condicionales if y ciclos while tienen complejidad constante (pues se rigen por valores establecidos
-por el usuario), el ordenamiento de los ID's ahce que la complejidad general del progama sea O(n).
-
 El programa incluye comentarios sobre el funcionamiento del mismo en cada etapa importante.
+
+**Análisis de complejidad**
+
+La complejidad general de main.cpp es cuadrática. Aunque los condicionales if y ciclos while tienen complejidad constante (pues se rigen por valores establecidos
+por el usuario), el ordenamiento de los ID's hace que la complejidad general del progama sea O(n^2).
+
+El programa 'sorts.h' tiene complejidad O(n^2) debido al manejo de los índices en el algoritmo de ordenamiento Burbuja.
+
+El programa 'heap.h' tiene complejidad O(log(n)) debido a la naturaleza binaria de la estructura de datos.
 
 **Archivos necesarios:**
 
