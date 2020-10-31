@@ -2,10 +2,9 @@
 
 Autor: Aarón Gonzalo Ramírez Tafolla - A01351621
 
-Proyecto para la Unidad Formativa TC1031. El programa recibe un archivo con los registros de varios jugadores. Cada jugador tiene registrado un ID, su edad y las horas jugadas.
-El usuario puede decidir si quiere organizar alguno de los registros mencionados anteriormente o realizar una búsqueda por ID específico o recibir todos los ID's existentes dentro
-de un rango. El proyecto utiliza el arlgoritmo de ordenamiento por burbuja porque, aunque Merge es más eficiente con valores aleatorios, Burbuja maneja una complejidad lineal (o(n))
-en el mejor de los casos (a diferencia de Merge, que maneja una complejidad nlog(n)). Además, facilita la manipulación de los vectores con la función swap. AEl proyecto también manipula
+Proyecto para la Unidad Formativa TC1031. El programa recibe un archivo con los ID's registrados en una base de datos y los guarda en un árbol heap.
+El usuario puede decidir si quiere organizar el registro, realizar una búsqueda por ID específico o recibir todos los ID's existentes dentro
+de un rango. Se utiliza el algoritmo Burbuja porque facilita la manipulación de los vectores con la función swap. El proyecto también manipula
 archivos .txt, tanto para lectura como para escritura.
 
 */
