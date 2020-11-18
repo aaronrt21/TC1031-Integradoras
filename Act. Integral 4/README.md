@@ -28,6 +28,7 @@ lista_amigos.txt
 
 *Se incluye un archivo de texto con los datos ordenados como referencia para identificar cada ID de manera ordenada (indices_id.txt).
 
+
 **Análisis de complejidad**
 
 La complejidad general de 'main.cpp' es cuadrática. Aunque los condicionales if y ciclos while tienen complejidad constante (pues se rigen por valores de selección establecidos
@@ -50,3 +51,5 @@ ningún resultado aunque los ID's sí existan en el archivo "ids.txt".
 
 Si el usuario mete un valor que se encuentra fuera del rango especificado en las impresiones de los menús ("[1/2/3/4]" y "[1/2]") el programa le pedirá que
 introduzca un valor nuevamente, pues el que introdujo no es válido.
+
+**Importante: El programa no compila si se usa Notepad++. El proyecto fue desarrollado desde repl.it.**
