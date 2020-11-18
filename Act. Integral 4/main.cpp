@@ -199,8 +199,9 @@ int main() {
 				}
 			}
 		}
+	//Desplegar amigos de usuarios/////////
     if (option1 == 3){
-      cout << "\n\n//////////Lista de amigos//////////\n\n*Nota: Cada número desplegado representa un ID."
+      cout << "\n\n//////////Lista de amigos//////////\n\n*Nota: Cada número desplegado representa un ID. "
       "Puede comparar el índice con su ID correspondiente en el archivo indices_id.txt\n\n";
       //Se crea un grafo con los datos de "ListaAmigos.txt"
       Graph amigos;
@@ -331,7 +332,7 @@ int main() {
 			  "Caso 7: Desplegar los amigos de cada usuario.\n"
 				"Inputs: 3\n"
 				"Output:\n";
-				cout << "\n//////////Lista de amigos//////////\n\n*Nota: Cada número desplegado representa un ID."
+				cout << "\n//////////Lista de amigos//////////\n\n*Nota: Cada número desplegado representa un ID. "
         "Puede comparar el índice con su ID correspondiente en el archivo indices_id.txt\n\n";
         Graph amigos;
         amigos.loadGraphList("lista_amigos.txt", 10, 10);
