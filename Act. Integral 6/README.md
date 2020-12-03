@@ -40,12 +40,12 @@ los niveles superiores darán valores que permitan dividirla y reducir el tiempo
 
 **Fuentes**
 
--https://en.wikipedia.org/wiki/Skip_list
+https://en.wikipedia.org/wiki/Skip_list
 
--https://homepage.cs.uiowa.edu/~ghosh/skip.pdf
+https://homepage.cs.uiowa.edu/~ghosh/skip.pdf
 
--https://www.javatpoint.com/skip-list-in-data-structure
+https://www.javatpoint.com/skip-list-in-data-structure
 
--https://brilliant.org/wiki/skip-lists/
+https://brilliant.org/wiki/skip-lists/
 
--https://www.youtube.com/watch?v=ypod5jeYzAU
+https://www.youtube.com/watch?v=ypod5jeYzAU
