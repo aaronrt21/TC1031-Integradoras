@@ -4,7 +4,7 @@
 
 **Fecha de entrega: 03/12/2020**
 
-Proyecto para la Unidad Formativa TC1031. En el proyecto se implementa una estructura Skip List. 
+Proyecto para la Unidad Formativa TC1031. En el proyecto se implementa una estructura Skip List con funciones de inserción, eliminación y búsqueda. 
 
 **Archivos necesarios:**
 
